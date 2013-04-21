@@ -1,10 +1,10 @@
-Most things here ℅ Noah Birnel.
+Most things here © Noah Birnel.
 Code is Do As You Like License.
 
-Art, photos, and blog stuff under ~noah is ℅ Noah Birnel,
+Art, photos, and blog stuff under ~noah is © Noah Birnel,
 and is released under the Creative Commons Attribution License.
 
-Art and photos under ~audrey is ℅ Audrey Birnel,
+Art and photos under ~audrey is © Audrey Birnel,
 and is released under the Creative Commons Attribution License.
 
 Book entries all pulled from
