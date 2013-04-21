@@ -1,0 +1,74 @@
+#!/bin/sh
+
+mk_header() {
+    printf 'The contents of my bookshelves,\n'
+    printf 'as captured by\n'
+    printf '[Book Catalogue](https://github.com/eleybourn/Book-Catalogue).\n'
+    printf '\n'
+    printf 'The data is exported to a csv [here](./export.csv),\n'
+    printf 'and processed with [this](./extract-books)\n'
+    printf 'really lousy shell script.\n'
+    printf '\n'
+}
+
+get_fields() {
+    fields=$(chead "$input" | sed 's/^ *//; s/: /_/')
+}
+
+get_title() {
+    title="$(printf '%s' "$line" | ccut 3 | sed 's/^"//; s/"$//')"
+}
+
+get_linkn() {
+    linkn="$(printf '%s' "$title" |\
+      sed '
+        s/"//g 
+        s/ /_/g
+        s/:/_/g
+        s,/,_,g
+        s/__/_/g
+        s,^,./books/,
+        s/$/.html/'
+    )"
+}
+
+htmlize() {
+    true
+}
+
+make_line() {
+    number=$(echo $1 | sed 's/^\([1-9][0-9]*\)_.*/\1/')
+    fieldn="$(echo $1 | sed 's/^[1-9][0-9]*_//')"
+    value="$(echo "$line" | ccut $number | sed 's/^"//; s/"$//')"
+    printf '%s: %s\n<br>\n' "$fieldn" "$value" >>"$linkn"
+}
+
+make_link() {
+    printf '* [%s](%s)\n' "$title" "$linkn" 
+}
+
+make_html() {
+    for i in $fields; do
+        make_line $i
+    done
+}
+
+input="$1"
+
+rm -f books/*
+#sort our stuff
+lines=$(wc -l <"$input")
+nr=2
+
+mk_header
+get_fields
+
+while [ $nr -lt $lines ]; do
+    line="$(sed $nr'!d' "$input")"
+    get_title
+    get_linkn
+    make_link
+    make_html
+    let nr+=1
+done
+

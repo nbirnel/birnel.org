@@ -1,0 +1,20 @@
+#!/bin/sh
+
+cd "$1" || exit 1
+
+echo "Recent files:" >recent.md
+echo "-------------" >>recent.md
+printf '\n' >>recent.md
+
+for i in 1_day 7_week 28_month; do
+    n=$(echo $i | sed 's/^\([1-9][0-9]*\)_.*/\1/')
+    interval="$(echo $i | sed 's/^[1-9][0-9]*_//')"
+    echo "Last $interval:" >>recent.md
+    printf '\n' >>recent.md
+    NEWER=$(find . -type f -mtime -$n -not -name '.*' -not -name 'recent.md' -not -name 'index.md' | sed -e 's,.md$,.html,g' -e '/thumbs\//d') 
+    for link in $NEWER; do
+        linkn="$(echo $link | sed -e 's,^\./,,; s,\.[^.]*$,,')"
+        echo "* [$linkn]($link)" >>recent.md
+    done
+    printf '\n' >>recent.md
+done
