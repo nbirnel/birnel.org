@@ -1,5 +1,7 @@
 SITE = birnel.org
 DEST = /var/www/${SITE}/public
+EXCLUDES = ~noah/bpc-furniture/.git
+
 
 all :: recent recent-blog static push
 
@@ -19,7 +21,7 @@ bookshelf ::
 	cd 'birnel.org/~noah/bookshelf/' && gmake
 
 push ::
-	rsync -avz ${SITE}.static/ ${DEST}
+	rsync -avz --exclude ${EXCLUDES} ${SITE}.static/ ${DEST}
 
 clean ::
 	rm -rf ${SITE}.static
