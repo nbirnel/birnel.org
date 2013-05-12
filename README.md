@@ -1,1 +1,1 @@
-My website, [www.birnel.org]
+My website, www.birnel.org
