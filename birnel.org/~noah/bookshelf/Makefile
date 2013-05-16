@@ -5,7 +5,7 @@ EXPORT = export.csv
 all :: ${HTML} clean
 
 ${HTML} :: ${EXPORT}
-	./extract-books $< > ${INDEX}.md
+	./extract-books ${EXPORT}  > ${INDEX}.md
 	md2html.awk ${INDEX}.md >$@
 
 clean ::
