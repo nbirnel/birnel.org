@@ -2,7 +2,6 @@ SITE = birnel.org
 DEST = /var/www/${SITE}/public
 EXCLUDES = ~noah/bpc-furniture/.git
 
-
 all :: recent recent-blog static push
 
 publish :: static push
@@ -26,4 +25,11 @@ push ::
 clean ::
 	rm -rf ${SITE}.static
 
-.PHONY : static all recent recent-blog push clean publish
+commit ::
+	git add . 
+	git commit .
+
+github :: commit
+	git push origin master
+
+.PHONY : static all recent recent-blog push clean publish commit github
