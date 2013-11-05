@@ -2,7 +2,7 @@ SITE = birnel.org
 DEST = /var/www/${SITE}/public
 EXCLUDES = ~noah/bpc-furniture/.git
 
-all :: recent recent-blog static push
+all :: recent recent-blog static push github
 
 publish :: static push
 
