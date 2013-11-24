@@ -21,7 +21,7 @@ Some of Audrey's Photos
 <br>
 <a href="christmas-tree-with-jack-olantern-on-top.jpg">
     <img src="thumbs/christmas-tree-with-jack-olantern-on-top.jpg" alt="christmas-tree-with-jack-olantern-on-top"/>
-    christmas tree with jack olantern on top
+    christmas tree with jack-o'-lantern on top
     <br>
 </a>
 <br>
