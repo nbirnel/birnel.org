@@ -1,11 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-
-<head>
-	<title>some sounds I have recorded</title>
-    <link rel="stylesheet" type="text/css" href="web.css" />
-</head>
+Some sounds I have recorded
 
 <a href="Flat_Top.mp3">
     Flat Top
@@ -119,5 +112,3 @@ MS-20, volca bass
 2013
 MS-20, volca bass
 <br>
-
-</body>
