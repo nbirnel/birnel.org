@@ -19,8 +19,16 @@ mk_img_link() {
 }
 
 mkdir -p thumbs
+mk_thumb=mk_thumb
+
+case "$1" in 
+    --no-thumbs)
+      mk_thumb=":"
+      shift
+      ;;
+esac
 
 for i in "$@"; do
     mk_img_link "$i"
-    mk_thumb "$1"
+    $mk_thumb "$1"
 done
