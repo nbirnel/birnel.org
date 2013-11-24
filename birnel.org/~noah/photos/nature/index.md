@@ -1,12 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-
-<head>
-	<title>nature photos</title>
-    <link rel="stylesheet" type="text/css" href="web.css" />
-</head>
-
 <a href="coyote_scat_on_vashon.jpg">
     <img src="thumbs/coyote_scat_on_vashon.jpg" alt="coyote_scat_on_vashon"/>
     coyote_scat_on_vashon
@@ -37,4 +28,3 @@
     <br>
 </a>
 <br>
-</body>

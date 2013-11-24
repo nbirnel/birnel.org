@@ -1,12 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-
-<head>
-	<title>misc photos</title>
-    <link rel="stylesheet" type="text/css" href="web.css" />
-</head>
-
 <a href="Gray's_Harbor.jpg">
     <img src="thumbs/Gray's_Harbor.jpg" alt="Gray's_Harbor"/>
     Gray's_Harbor
@@ -55,4 +46,3 @@
     <br>
 </a>
 <br>
-</body>

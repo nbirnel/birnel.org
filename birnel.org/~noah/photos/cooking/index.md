@@ -1,12 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-
-<head>
-	<title>cooking photos</title>
-    <link rel="stylesheet" type="text/css" href="web.css" />
-</head>
-
 <a href="1-full_pan.jpg">
     <img src="thumbs/1-full_pan.jpg" alt="1-full_pan"/>
     1-full_pan
@@ -31,4 +22,3 @@
     <br>
 </a>
 <br>
-</body>
