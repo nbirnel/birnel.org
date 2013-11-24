@@ -106,3 +106,33 @@
     <br>
 </a>
 <br>
+<a href="amanita-muscaria.jpg">
+    <img src="thumbs/amanita-muscaria.jpg" alt="amanita muscaria"/>
+    amanita muscaria
+    <br>
+</a>
+<br>
+<a href="arboretum.jpg">
+    <img src="thumbs/arboretum.jpg" alt="arboretum"/>
+    arboretum
+    <br>
+</a>
+<br>
+<a href="bluit-1.jpg">
+    <img src="thumbs/bluit-1.jpg" alt="bluit 1"/>
+    bluit 1
+    <br>
+</a>
+<br>
+<a href="bluit-2.jpg">
+    <img src="thumbs/bluit-2.jpg" alt="bluit 2"/>
+    bluit 2
+    <br>
+</a>
+<br>
+<a href="bluit-3.jpg">
+    <img src="thumbs/bluit-3.jpg" alt="bluit 3"/>
+    bluit 3
+    <br>
+</a>
+<br>

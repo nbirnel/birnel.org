@@ -22,3 +22,21 @@
     <br>
 </a>
 <br>
+<a href="morton-subotnik-buchla-1.jpg">
+    <img src="thumbs/morton-subotnik-buchla-1.jpg" alt="morton subotnik buchla 1"/>
+    morton subotnik buchla 1
+    <br>
+</a>
+<br>
+<a href="morton-subotnik-buchla-2.jpg">
+    <img src="thumbs/morton-subotnik-buchla-2.jpg" alt="morton subotnik buchla 2"/>
+    morton subotnik buchla 2
+    <br>
+</a>
+<br>
+<a href="morton-subotnik-buchla-3.jpg">
+    <img src="thumbs/morton-subotnik-buchla-3.jpg" alt="morton subotnik buchla 3"/>
+    morton subotnik buchla 3
+    <br>
+</a>
+<br>
