@@ -20,15 +20,20 @@ mk_img_link() {
 
 mkdir -p thumbs
 mk_thumb=mk_thumb
+mk_img_link=mk_img_link
 
 case "$1" in 
     --no-thumbs)
       mk_thumb=":"
       shift
       ;;
+    --thumbs-only)
+      mk_img_link=":"
+      shift
+      ;;
 esac
 
 for i in "$@"; do
-    mk_img_link "$i"
+    $mk_img_link "$i"
     $mk_thumb "$i"
 done
