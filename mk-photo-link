@@ -1,0 +1,26 @@
+#!/bin/sh
+
+mk_thumb() {
+    cp "$1" thumbs/
+    ( cd thumbs && \
+    gm mogrify -size 120x120 "$1" -resize 120x120 +profile "$1" )
+}
+
+mk_img_link() {
+    jpg="$1"
+    link=$(echo "$jpg" | sed 's,\.jpg$,,; s/_/ /g; s/-/ /g')
+    thumb="thumbs/$jpg"
+    printf '<a href="%s">\n' "$jpg"
+    printf '    <img src="%s" alt="%s"/>\n' "$thumb" "$link"
+    printf '    %s\n' "$link"
+    printf '    <br>\n'
+    printf '</a>\n'
+    printf '<br>\n'
+}
+
+mkdir -p thumbs
+
+for i in "$@"; do
+    mk_img_link "$i"
+    mk_thumb "$1"
+done
