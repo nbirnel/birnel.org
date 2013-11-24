@@ -1,15 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-
-<head>
-	<title>audrey's art</title>
-    <link rel="stylesheet" type="text/css" href="web.css" />
-</head>
+Some of Audrey's Art
+--------------------
 
 <a href="a-city.jpg">
     <img src="thumbs/a-city.jpg" alt="a-city"/>
-    a-city
+    a city
     <br>
 </a>
 <br>
@@ -39,7 +33,7 @@
 <br>
 <a href="phone-sketch_1.jpg">
     <img src="thumbs/phone-sketch_1.jpg" alt="phone-sketch_1"/>
-    phone-sketch_1
+    phone sketch 1
     <br>
 </a>
 <br>
@@ -51,8 +45,7 @@
 <br>
 <a href="typographic-art.jpg">
     <img src="thumbs/typographic-art.jpg" alt="typographic-art"/>
-    typographic-art
+    typographic art
     <br>
 </a>
 <br>
-</body>
