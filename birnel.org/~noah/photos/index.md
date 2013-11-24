@@ -1,1 +1,2 @@
-some pictures
+Some of my photos
+-----------------
