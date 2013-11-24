@@ -11,14 +11,14 @@
 </a>
 <br>
 <a href="Renee-de-la-Prade-1.jpg">
-    <img src="thumbs/Renee-de-la-Prade-1.jpg" alt="Renee de la Prade 1"/>
-    Renee de la Prade 1
+    <img src="thumbs/Renee-de-la-Prade-1.jpg" alt="Renée de la Prade 1"/>
+    Renée de la Prade 1
     <br>
 </a>
 <br>
 <a href="Renee-de-la-Prade-2.jpg">
-    <img src="thumbs/Renee-de-la-Prade-2.jpg" alt="Renee de la Prade 2"/>
-    Renee de la Prade 2
+    <img src="thumbs/Renee-de-la-Prade-2.jpg" alt="Renée de la Prade 2"/>
+    Renée de la Prade 2
     <br>
 </a>
 <br>
