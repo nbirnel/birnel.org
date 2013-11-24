@@ -28,3 +28,9 @@
     <br>
 </a>
 <br>
+<a href="dead-crow.jpg">
+    <img src="thumbs/dead-crow.jpg" alt="dead crow"/>
+    dead crow
+    <br>
+</a>
+<br>
