@@ -42,7 +42,7 @@
 <br>
 <a href="winter-afternoon-from-safeco-tower.jpg">
     <img src="thumbs/winter-afternoon-from-safeco-tower.jpg" alt="winter-afternoon-from-safeco-tower"/>
-    winter afternoon from safeco tower
+    winter afternoon from Safeco Tower
     <br>
 </a>
 <br>
