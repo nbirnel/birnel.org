@@ -30,5 +30,5 @@ esac
 
 for i in "$@"; do
     mk_img_link "$i"
-    $mk_thumb "$1"
+    $mk_thumb "$i"
 done
