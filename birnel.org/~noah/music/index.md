@@ -124,6 +124,6 @@ MS-20, volca bass
 <a href="its-not-ironic.mp3">
     It's not ironic
 </a>
-2014 January - -
+2014 January -
 MS-20, eurorack, gl
 <br>
